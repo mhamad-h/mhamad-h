@@ -1,6 +1,6 @@
 async function initflagObjects(){
     try {
-        const response = await fetch('https://restcountries.com/v2/all');
+        const response = await fetch('https://restcountries.com/v3.1/all');
         const countries = await response.json();
     
         // Create an empty object to store the country names and flags
